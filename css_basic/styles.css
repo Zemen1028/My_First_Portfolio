@@ -5,6 +5,41 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
+header {
+    width: 100%;
+    background-color: #2a3d66;
+    padding: 10px 20px;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header ul li.logo {
+    font-size: 3rem; 
+    margin-right: 10px;
+    color: #f5c518; 
+}
 
 h1, h2, h3 {
     color: #2a3d66;
